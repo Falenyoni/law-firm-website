@@ -1,0 +1,55 @@
+/* HeroSection.css */
+
+body {
+	font-family: 'Philosopher', sans-serif;
+	position: relative;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8a919c;
+	line-height: 30px;
+}
+
+.hero-section {
+  display: flex;
+  position: relative;
+  height: 600px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-button:hover {
+  background-color: darkgoldenrod;
+}
